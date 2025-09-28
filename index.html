@@ -1,22 +1,96 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carregando - Do Fogo ao Prato</title>
-  <link rel="stylesheet" href="style.css">
-  <script>
-    // Redireciona após 3 segundos
-    setTimeout(() => {
-      window.location.href = "home.html";
-    }, 3000);
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Fogo ao Prato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="loading-page">
-  <div class="loader-container">
-    <h1>Do Fogo ao Prato</h1>
-    <div class="loader"></div>
-    <p>Preparando o melhor rodízio para você...</p>
-  </div>
+<body>
+    <!-- Loading Page -->
+    <div id="loading">
+        <h1>🍖 Do Fogo ao Prato</h1>
+        <p>Mais que churrasco, uma experiência...</p>
+    </div>
+
+    <!-- Site -->
+    <div id="content" class="hidden">
+        <header>
+            <h1>Do Fogo ao Prato</h1>
+            <p class="slogan">Mais que churrasco, uma experiência.</p>
+        </header>
+
+        <section id="hero">
+            <img src="images/churrasco.png" alt="Churrasco">
+            <h2>Rodízio de Carnes</h2>
+            <p>Ambiente acolhedor com área kids 🍷🎶</p>
+        </section>
+
+        <section id="cardapio">
+            <h2>Cardápio</h2>
+            <h3>Carnes</h3>
+            <ul>
+                <li>Picanha corte especial – R$ 45,00/kg</li>
+                <li>Chouriço defumado – R$ 25,00/kg</li>
+                <li>Linguiça caseira – R$ 20,00/kg</li>
+                <li>Fraldinha tender – R$ 35,00/kg</li>
+                <li>Costela ao molho – R$ 30,00/kg</li>
+                <li>Filé mignon grelhado – R$ 50,00/kg</li>
+            </ul>
+
+            <h3>Acompanhamentos</h3>
+            <ul>
+                <li>Arroz branco – R$ 6,00</li>
+                <li>Feijão tropeiro – R$ 6,00</li>
+                <li>Farofa – R$ 3,00</li>
+            </ul>
+
+            <h3>Sobremesas</h3>
+            <ul>
+                <li>Sorvete – R$ 8,00</li>
+                <li>Torta de chocolate – R$ 12,00</li>
+                <li>Cheesecake – R$ 15,00</li>
+            </ul>
+
+            <h3>Bebidas</h3>
+            <ul>
+                <li>Refrigerantes 2L – R$ 15,00</li>
+                <li>Suco de frutas – R$ 6,00</li>
+                <li>Água com gás ou sem gás – R$ 4,00</li>
+            </ul>
+        </section>
+
+        <section id="ofertas">
+            <h2>Ofertas Especiais</h2>
+            <ul>
+                <li>Rodízio de carnes – R$ 60,00/pessoa (mínimo 2 pessoas)</li>
+                <li>Combo família – R$ 120,00 (4 pessoas)</li>
+                <li>Happy Hour – 10% de desconto das 17h às 20h</li>
+            </ul>
+        </section>
+
+        <section id="promocoes">
+            <h2>Promoções</h2>
+            <ul>
+                <li>Dia da Picanha – 15% de desconto</li>
+                <li>Noite do Churrasco – 10% de desconto + música ao vivo</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p><strong>Endereço:</strong> Matipó, MG – Centro</p>
+            <p><strong>Telefone:</strong> (31) 98440-2456</p>
+            <p><strong>Email:</strong> dofogoaopratoADM@gmail.com</p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/do_fogo_ao_prato" target="_blank">@do_fogo_ao_prato</a></p>
+        </section>
+
+        <footer>
+            <p>© 2025 Do Fogo ao Prato. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
